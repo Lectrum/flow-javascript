@@ -1,0 +1,86 @@
+@import './sanitize.css';
+
+:root {
+    --paletteColor1: #161619;
+    --paletteColor2: #f5deb3;
+    --paletteColor3: #6495ED;
+    --paletteColor4: #ffa500;
+    --paletteColor5: #ffa500;
+    --paletteColor6: #808080;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    background-color: var(--paletteColor1);
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+code {
+    color: var(--paletteColor2);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+button {
+    color: var(--paletteColor2);
+    border: 2px solid currentColor;
+    border-radius: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.1s ease;
+    font-size: 21px;
+    padding: 7px 20px;
+}
+
+button:hover {
+    color: var(--paletteColor3);
+}
+
+button:active {
+    color: var(--paletteColor4);
+}
+
+button:disabled {
+    color: var(--paletteColor6);
+    cursor: wait;
+}
+
+button:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+input {
+    color: var(--paletteColor2);
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-radius: 7px;
+    height: 34px;
+    padding: 3px 10px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid var(--paletteColor3);
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}

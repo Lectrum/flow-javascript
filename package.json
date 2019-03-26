@@ -1,0 +1,16 @@
+{
+    "name": "flow-javascript",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "serve": "serve -d dist",
+        "copyfiles": "copyfiles -f ./static/*.* ./dist"
+    },
+    "devDependencies": {
+        "@lectrum/eslint-config-core": "1.1.15",
+        "babel-eslint": "10.0.1",
+        "copyfiles": "2.1.0",
+        "eslint": "5.15.3",
+        "serve": "10.1.2"
+    }
+}
