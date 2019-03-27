@@ -5,5 +5,4 @@ const processObject = (obj: Object) => {
     // другие операции с объектом obj
 };
 
-processObject(1);
 processObject({});

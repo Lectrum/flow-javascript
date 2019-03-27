@@ -5,7 +5,7 @@
  */
 type ObjType = { property: string };
 let obj = { property: 'value' };
-let test: ObjType = obj;
+let test1: ObjType = obj;
 
 /**
  * Классы во Flow типизированы номинально (nominal typing).
@@ -22,4 +22,4 @@ class Bar {
     }
 }
 
-const test: Foo = new Bar();
+const test2: Foo = new Bar();

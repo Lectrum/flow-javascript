@@ -9,7 +9,7 @@ const user: {
     age:  25,
 };
 
-// user.pet = 'cat';
-// user.pet = undefined;
-// user.pet = 4;
-// user.pet = null;
+user.pet = 'cat';
+user.pet = undefined;
+user.pet = 4;
+user.pet = null;

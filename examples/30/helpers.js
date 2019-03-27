@@ -1,7 +1,7 @@
 /* @flow */
 import type { person } from './types';
 
-const getName = (object /*: person */) /*: string */ => {
+const getName = (object: person): string => {
     return object.name;
 };
 
