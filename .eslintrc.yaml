@@ -6,3 +6,5 @@ rules:
     no-console: 0
     valid-jsdoc: 0
     no-unused-vars: 0
+    id-blacklist: 0
+    no-undefined: 0
